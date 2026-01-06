@@ -66,7 +66,7 @@ void led_blink(void){
 		HAL_GPIO_WritePin(led_GPIO_Port, led_Pin, SET);
 		HAL_Delay(1000);
 		HAL_GPIO_WritePin(led_GPIO_Port,led_Pin, RESET);
-		HAL_Delay(500);
+		HAL_Delay(1000);
 	}
 }
 
