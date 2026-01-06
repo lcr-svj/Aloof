@@ -1,0 +1,34 @@
+23:50:11 **** Incremental Build of configuration Debug for project learnproject ****
+make -j16 all 
+arm-none-eabi-gcc -o "learnproject.elf" @"objects.list"   -mcpu=cortex-m3 -T"D:\STM32IDE\learnproject\STM32F103C8TX_FLASH.ld" --specs=nosys.specs -Wl,-Map="learnproject.map" -Wl,--gc-sections -static --specs=nano.specs -mfloat-abi=soft -mthumb -Wl,--start-group -lc -lm -Wl,--end-group
+Finished building target: learnproject.elf
+ 
+arm-none-eabi-size  learnproject.elf 
+arm-none-eabi-objdump -h -S learnproject.elf  > "learnproject.list"
+   text	   data	    bss	    dec	    hex	filename
+  13972	     12	   2052	  16036	   3ea4	learnproject.elf
+Finished building: default.size.stdout
+ 
+Finished building: learnproject.list
+ 
+23:52:10 **** Incremental Build of configuration Debug for project learnproject ****
+make -j16 all 
+arm-none-eabi-size  learnproject.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13972	     12	   2052	  16036	   3ea4	learnproject.elf
+Finished building: default.size.stdout
+ 
+23:55:09 **** Incremental Build of configuration Debug for project learnproject ****
+make -j16 all 
+arm-none-eabi-size  learnproject.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13972	     12	   2052	  16036	   3ea4	learnproject.elf
+Finished building: default.size.stdout
+ 
+23:55:39 **** Incremental Build of configuration Debug for project learnproject ****
+make -j16 all 
+arm-none-eabi-size  learnproject.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13972	     12	   2052	  16036	   3ea4	learnproject.elf
+Finished building: default.size.stdout
+ 

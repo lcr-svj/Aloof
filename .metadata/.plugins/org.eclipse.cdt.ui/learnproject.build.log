@@ -1,0 +1,10 @@
+23:55:39 **** Incremental Build of configuration Debug for project learnproject ****
+make -j16 all 
+arm-none-eabi-size  learnproject.elf 
+   text	   data	    bss	    dec	    hex	filename
+  13972	     12	   2052	  16036	   3ea4	learnproject.elf
+Finished building: default.size.stdout
+ 
+
+23:55:40 Build Finished. 0 errors, 0 warnings. (took 323ms)
+
